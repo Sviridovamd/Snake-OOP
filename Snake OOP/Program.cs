@@ -10,7 +10,7 @@ namespace Snake_OOP
     {
         static void Main(string[] args)
         {
-            Console.SetBufferSize(30,10);
+            Console.SetWindowSize(80, 25);
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("Press 'enter' to start the game :)");
             Console.ResetColor();
